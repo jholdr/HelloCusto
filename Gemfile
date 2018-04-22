@@ -38,6 +38,6 @@ group :development do
 end
 
 group :production do
-  gem 'pg'
-  gem 'rails_12factor'
+gem 'pg', '~> 0.11'
+gem 'rails_12factor'
 end
