@@ -1,0 +1,80 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+main {
+  width: 45%;
+  float: right;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+
+#pcard {
+  background-color: white;
+  width: 80%;
+  height: auto;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  border: solid 1.25px #eee;
+  border-left: #1992FC 2.25px solid;
+  /*box-shadow: 0 1px 2px 0 rgba(0,0,0,0.25);*/
+  padding-bottom: 30px;
+  padding-top: 10px;
+  padding-right: 20px;
+  border-radius: 3px;
+  font-family: 'Lato', sans-serif;
+
+}
+
+#ptitle {
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 10px;
+  text-transform: capitalize;
+  color: black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 18px;
+}
+
+
+
+#pemp {
+text-align: left;
+margin-left: 30px;
+background-color: #FEF9CD;
+display: inline-block;
+margin-top: 5px;
+}
+
+#pdes {
+  text-align: left;
+  color: #8d8d8d;
+  padding-left: 30px;
+  color: inherit;
+
+
+}
+
+#padd {
+  padding-left: 30px;
+  float: left;
+  color: grey;
+}
+
+#plink {
+text-align: center;
+color: black;
+font-family: 'Roboto Slab', serif;
+border: 1.5px solid black;
+padding: 2.5px;
+display: inline-block;
+margin-left: 50%;
+margin-top: 5px;
+}
+
+#plink a {
+  text-decoration: none;
+  color: black;
+}

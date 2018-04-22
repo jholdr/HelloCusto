@@ -1,0 +1,141 @@
+body {
+  background-color: white;
+  height: 1000px;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+main {
+    padding: 0;
+    margin: 0;
+    min-width: 320px;
+    max-width: 900px;
+    margin: 0 auto;
+
+}
+
+
+#brand {
+  color: black;
+  font-size: 24px;
+  font-family: 'Roboto Slab', serif;
+  letter-spacing: 2px;
+  font-weight: 400;
+  border: 3px solid black;
+  display: inline-block;
+  padding: 4px;
+  margin-top: 10%;
+  margin-bottom: 2.5%;
+  z-index: auto;
+  margin-left: 20%;
+
+}
+
+#brandsubhead {
+  color:black;
+  font-family: 'Roboto Slab', serif;
+  font-size: 22px;
+  font-weight: 300;
+  text-align: left;
+  margin-left: 20%;
+
+}
+#unl {
+background-color: #FEF9CD;
+}
+
+
+
+#search-container {
+  margin-top: 2.5%;
+  height: 40px;
+  background-color: none;
+
+
+}
+
+input[type=text] {
+  width: 500px;
+  height: 40px;
+  background-color: inherit;
+  color: grey;
+  padding: 6px;
+  font-size: 20px;
+  border-bottom: 1.5px black solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  font-family: 'Roboto Slab', serif;
+}
+
+#search-container button {
+  display: inline-block;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  border: 2px solid #2e4afd;
+  background-color: none;
+  color: black;
+}
+
+#iul{
+  list-style: none;
+  position: fixed;
+  bottom: 0;
+  margin-left: 20%;
+
+}
+#ili {
+  display: inline-block;
+  margin-right: 75px;
+}
+
+.ccselect {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  height: 40px !important;
+  width: 500px !important;
+  font-family: 'Roboto Slab', serif;
+  border-left: #1992FC 6px solid;
+  margin-left: 20%;
+
+
+}
+
+.ccselect .list {
+  width: 50% !important;
+  font-family: 'Roboto Slab', serif;
+  margin-left: 20%;
+}
+
+.sbutton {
+  background: none;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  height: 40px;
+  width: 500px;
+  margin-top: 2.8%;
+  border-radius: 10px;
+  border: 2px solid #1992FC;
+  background-color: #1992FC;
+  color: white;
+  margin-left: -500px;
+}
+
+.searchf {
+  margin-left: 20%;
+}
+.locatef {
+  margin-left: 20%;
+}

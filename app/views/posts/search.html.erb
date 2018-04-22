@@ -1,0 +1,22 @@
+<head>
+<link rel="stylesheet" href="/assets/search.css">
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+
+</head>
+<body>
+<main>
+<% @posts.each do |post| %>
+<div id="pcard">
+<td><div id="ptitle"><%= post.title %></div></td>
+<td><div id="pemp"><%= post.employer %></div></td>
+</br>
+<td><div id="padd"><%= post.city %> <%= post.state %> </div></td>
+</br>
+<td><div id="plink"><%= link_to 'Apply', post.link %></div>
+
+
+</div>
+<% end %>
+</main>
+</body>

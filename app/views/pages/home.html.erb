@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!--stylesheets-->
+<link rel="stylesheet" href="assets/home.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!--Font-->
+<link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700" rel="stylesheet">
+
+<!--jS-->
+
+</head>
+
+
+<body>
+<main>
+  <div id="brand">Hello</br>Custo</div>
+  <div id="brandsubhead">Discover the <span id="unl">Customer Service</span>,</br> <span id="unl">Client-Facing</span>, <span id="unl">Patient-Assisting</span>, & <span id="unl">People-Helping</span> </br>Jobs That Best Fit <span id="unl">You.</span> </div>
+
+  <!--<div id="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>-->
+</br>
+
+
+
+
+<%= form_tag search_posts_path, method: :get do |f| %>
+<!--<%= text_field_tag :search, nil, class: "searchf", placeholder: "What Do You Wanna Do?" %></br>-->
+<%= text_field_tag :location, nil, class: "locatef", placeholder: "Where Do You Wanna Work? (State, City, Zip)" %>
+</br></br>
+<div class="form-group" id="cselect">
+<%= select_tag :category, options_from_collection_for_select(Category.all, :id, :name), :prompt => "Select An Industry", class: "ccselect", :validate => true do |f| %>
+<% end %>
+</div>
+</br>
+<button class='sbutton'>
+  <%= fa_icon("search") %>
+</button>
+<% end %>
+
+<footer>
+  <ul id="iul">
+    <li id="ili"><img src="assets/keyboard.png"></li>
+    <li id="ili"><img src="assets/burger2.png"></li>
+    <li id="ili"><img src="assets/steth.png"></li>
+    <li id="ili"><img src="assets/auc.png"></li>
+    <li id="ili"><img src="assets/icon.png"></li>
+    <li id="ili"><img src="assets/call.png"></li>
+
+  </ul>
+</footer>
+</main>
+
+
+
+
+</body>
+
+
+</html>
